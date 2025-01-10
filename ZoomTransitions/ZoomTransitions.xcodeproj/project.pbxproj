@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD362C212C3D5AB500D884D5 /* ZoomTransitionsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD362C202C3D5AB500D884D5 /* ZoomTransitionsApp.swift */; };
+		AD362C232C3D5AB500D884D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD362C222C3D5AB500D884D5 /* ContentView.swift */; };
+		AD362C252C3D5AB600D884D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD362C242C3D5AB600D884D5 /* Assets.xcassets */; };
+		AD362C292C3D5AB600D884D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD362C282C3D5AB600D884D5 /* Preview Assets.xcassets */; };
+		AD362C352C3D5B7600D884D5 /* Video 6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD362C2F2C3D5B7600D884D5 /* Video 6.mp4 */; };
+		AD362C362C3D5B7600D884D5 /* Video 5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD362C302C3D5B7600D884D5 /* Video 5.mp4 */; };
+		AD362C372C3D5B7600D884D5 /* Video 4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD362C312C3D5B7600D884D5 /* Video 4.mp4 */; };
+		AD362C382C3D5B7600D884D5 /* Video 3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD362C322C3D5B7600D884D5 /* Video 3.mp4 */; };
+		AD362C392C3D5B7600D884D5 /* Video 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD362C332C3D5B7600D884D5 /* Video 1.mp4 */; };
+		AD362C3A2C3D5B7600D884D5 /* Video 2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AD362C342C3D5B7600D884D5 /* Video 2.mp4 */; };
+		AD362C3E2C3D5B8300D884D5 /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD362C3D2C3D5B8300D884D5 /* Video.swift */; };
+		AD362C402C3D5BA600D884D5 /* SharedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD362C3F2C3D5BA600D884D5 /* SharedModel.swift */; };
+		ADA8B8AF2C3D6093006DD265 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8B8AE2C3D6093006DD265 /* DetailView.swift */; };
+		ADA8B8B12C3D639D006DD265 /* CustomVideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8B8B02C3D639D006DD265 /* CustomVideoPlayerView.swift */; };
+		ADA8B8B32C3D6571006DD265 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8B8B22C3D6571006DD265 /* Home.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AD362C1D2C3D5AB500D884D5 /* ZoomTransitions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZoomTransitions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD362C202C3D5AB500D884D5 /* ZoomTransitionsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomTransitionsApp.swift; sourceTree = "<group>"; };
+		AD362C222C3D5AB500D884D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AD362C242C3D5AB600D884D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD362C262C3D5AB600D884D5 /* ZoomTransitions.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ZoomTransitions.entitlements; sourceTree = "<group>"; };
+		AD362C282C3D5AB600D884D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AD362C2F2C3D5B7600D884D5 /* Video 6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Video 6.mp4"; sourceTree = "<group>"; };
+		AD362C302C3D5B7600D884D5 /* Video 5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Video 5.mp4"; sourceTree = "<group>"; };
+		AD362C312C3D5B7600D884D5 /* Video 4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Video 4.mp4"; sourceTree = "<group>"; };
+		AD362C322C3D5B7600D884D5 /* Video 3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Video 3.mp4"; sourceTree = "<group>"; };
+		AD362C332C3D5B7600D884D5 /* Video 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Video 1.mp4"; sourceTree = "<group>"; };
+		AD362C342C3D5B7600D884D5 /* Video 2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Video 2.mp4"; sourceTree = "<group>"; };
+		AD362C3D2C3D5B8300D884D5 /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		AD362C3F2C3D5BA600D884D5 /* SharedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedModel.swift; sourceTree = "<group>"; };
+		ADA8B8AE2C3D6093006DD265 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		ADA8B8B02C3D639D006DD265 /* CustomVideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoPlayerView.swift; sourceTree = "<group>"; };
+		ADA8B8B22C3D6571006DD265 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD362C1A2C3D5AB500D884D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD362C142C3D5AB500D884D5 = {
+			isa = PBXGroup;
+			children = (
+				AD362C332C3D5B7600D884D5 /* Video 1.mp4 */,
+				AD362C342C3D5B7600D884D5 /* Video 2.mp4 */,
+				AD362C322C3D5B7600D884D5 /* Video 3.mp4 */,
+				AD362C312C3D5B7600D884D5 /* Video 4.mp4 */,
+				AD362C302C3D5B7600D884D5 /* Video 5.mp4 */,
+				AD362C2F2C3D5B7600D884D5 /* Video 6.mp4 */,
+				AD362C1F2C3D5AB500D884D5 /* ZoomTransitions */,
+				AD362C1E2C3D5AB500D884D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AD362C1E2C3D5AB500D884D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD362C1D2C3D5AB500D884D5 /* ZoomTransitions.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD362C1F2C3D5AB500D884D5 /* ZoomTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				AD362C3B2C3D5B7900D884D5 /* Model */,
+				AD362C3C2C3D5B7D00D884D5 /* View */,
+				AD362C202C3D5AB500D884D5 /* ZoomTransitionsApp.swift */,
+				AD362C222C3D5AB500D884D5 /* ContentView.swift */,
+				AD362C242C3D5AB600D884D5 /* Assets.xcassets */,
+				AD362C262C3D5AB600D884D5 /* ZoomTransitions.entitlements */,
+				AD362C272C3D5AB600D884D5 /* Preview Content */,
+			);
+			path = ZoomTransitions;
+			sourceTree = "<group>";
+		};
+		AD362C272C3D5AB600D884D5 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AD362C282C3D5AB600D884D5 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AD362C3B2C3D5B7900D884D5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AD362C3D2C3D5B8300D884D5 /* Video.swift */,
+				AD362C3F2C3D5BA600D884D5 /* SharedModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AD362C3C2C3D5B7D00D884D5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8B8B22C3D6571006DD265 /* Home.swift */,
+				ADA8B8AE2C3D6093006DD265 /* DetailView.swift */,
+				ADA8B8B02C3D639D006DD265 /* CustomVideoPlayerView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD362C1C2C3D5AB500D884D5 /* ZoomTransitions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD362C2C2C3D5AB600D884D5 /* Build configuration list for PBXNativeTarget "ZoomTransitions" */;
+			buildPhases = (
+				AD362C192C3D5AB500D884D5 /* Sources */,
+				AD362C1A2C3D5AB500D884D5 /* Frameworks */,
+				AD362C1B2C3D5AB500D884D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZoomTransitions;
+			productName = ZoomTransitions;
+			productReference = AD362C1D2C3D5AB500D884D5 /* ZoomTransitions.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD362C152C3D5AB500D884D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					AD362C1C2C3D5AB500D884D5 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = AD362C182C3D5AB500D884D5 /* Build configuration list for PBXProject "ZoomTransitions" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD362C142C3D5AB500D884D5;
+			productRefGroup = AD362C1E2C3D5AB500D884D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD362C1C2C3D5AB500D884D5 /* ZoomTransitions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD362C1B2C3D5AB500D884D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD362C352C3D5B7600D884D5 /* Video 6.mp4 in Resources */,
+				AD362C362C3D5B7600D884D5 /* Video 5.mp4 in Resources */,
+				AD362C372C3D5B7600D884D5 /* Video 4.mp4 in Resources */,
+				AD362C382C3D5B7600D884D5 /* Video 3.mp4 in Resources */,
+				AD362C392C3D5B7600D884D5 /* Video 1.mp4 in Resources */,
+				AD362C3A2C3D5B7600D884D5 /* Video 2.mp4 in Resources */,
+				AD362C292C3D5AB600D884D5 /* Preview Assets.xcassets in Resources */,
+				AD362C252C3D5AB600D884D5 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD362C192C3D5AB500D884D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD362C402C3D5BA600D884D5 /* SharedModel.swift in Sources */,
+				AD362C232C3D5AB500D884D5 /* ContentView.swift in Sources */,
+				AD362C3E2C3D5B8300D884D5 /* Video.swift in Sources */,
+				ADA8B8AF2C3D6093006DD265 /* DetailView.swift in Sources */,
+				ADA8B8B12C3D639D006DD265 /* CustomVideoPlayerView.swift in Sources */,
+				AD362C212C3D5AB500D884D5 /* ZoomTransitionsApp.swift in Sources */,
+				ADA8B8B32C3D6571006DD265 /* Home.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AD362C2A2C3D5AB600D884D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD362C2B2C3D5AB600D884D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AD362C2D2C3D5AB600D884D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZoomTransitions/ZoomTransitions.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZoomTransitions/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kavsoft.ZoomTransitions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		AD362C2E2C3D5AB600D884D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ZoomTransitions/ZoomTransitions.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ZoomTransitions/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.kavsoft.ZoomTransitions;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				XROS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD362C182C3D5AB500D884D5 /* Build configuration list for PBXProject "ZoomTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD362C2A2C3D5AB600D884D5 /* Debug */,
+				AD362C2B2C3D5AB600D884D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD362C2C2C3D5AB600D884D5 /* Build configuration list for PBXNativeTarget "ZoomTransitions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD362C2D2C3D5AB600D884D5 /* Debug */,
+				AD362C2E2C3D5AB600D884D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD362C152C3D5AB500D884D5 /* Project object */;
+}
